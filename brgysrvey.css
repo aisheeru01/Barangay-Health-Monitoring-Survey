@@ -1,0 +1,231 @@
+*{
+margins: 0;
+padding: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+        }
+
+        .heading {
+            text-align: center;
+            color: #2f6f4e;
+        }
+        
+
+        form {
+            background: #e1f5e1;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+        }
+
+        .submit-btn {
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .submit-btn:hover {
+            background-color: #246d46;
+        }
+
+        #results {
+            max-width: 800px;
+            margin: 30px auto;
+            display: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2e8b57;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #d3f4d3;
+        }
+
+        .print-btn {
+            margin-top: 20px;
+            background-color: #1e6091;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .print-btn:hover {
+            background-color: #144d75;
+        }
+
+        @media (max-width: 768px) {
+            form, table {
+                width: 100%;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            margin: 0;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+        }
+        
+        .box, input[type="text"], input[type="number"], input[type="date"], select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        
+        @media (max-width: 600px) {
+            h1, h2 {
+                font-size: 1.5em;
+                text-align: center;
+            }
+        
+            .box, input, select, button {
+                font-size: 16px;
+            }
+        }
+       
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .landing-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background-color: #f0f8ff;
+        }
+
+        .landing-page h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .landing-page h2 {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .start-btn {
+            padding: 10px 25px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .start-btn:hover {
+            background-color: #218838;
+        }
+
+        #surveyFormContainer {
+            display: none;
+            padding: 20px;
+        }
+
+        .print-btn {
+            display: none; 
+            margin-left: 10px;
+        }
+            /* General responsive form layout */
+form, #personalInfo {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Ensure form input boxes stretch properly */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Stack labels and inputs vertically */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Responsive layout for mobile screens */
+@media screen and (max-width: 600px) {
+    .landing-page h1 {
+        font-size: 2em;
+    }
+
+    .landing-page h2 {
+        font-size: 1.2em;
+    }
+
+    .start-btn {
+        width: 80%;
+        font-size: 1.1em;
+    }
+
+    .submit-btn, .print-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
